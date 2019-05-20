@@ -1,0 +1,30 @@
+Ejercios JAVA SE8
+
+Escribe una clase multimedia para almacenar informacion de peliculas, discos, mp3,mp4... Esta contiene titulo, auto,formato y duracion 
+como atributos. El formato puede ser uno de los siguientes: wav,mp4,midi,vos,mpg,cdAudio y dvd.EL valor de todos lso 
+atributos se lasa por aptametro en el momento de crrear el objeto.
+Esta clase tiene ademas un metodo para devovler cada uno de los atributos y un metodo toString() que recibe un oobjeto de tipo Multimedia y duevlve
+true en cado de que el titulo y el autot sean iguales y false en caso contrario 
+2) La clase Pelicula hereda de ;ultimedia. Em el constructor se de recibe lso valores de lso atributos de las superclase y los 2 nuevos.
+se debe controlar que los valores de los 2  nuevos atributos /actor y actriz) no sean ambos nulos.
+en el caso de que lo sean, se lanza una exceptcion 
+se sobrescribe el metodo toString()
+
+3) Escribe una clase Lista;ultimedia para Almacenar objetos de tipo multimedia. La clase debe tener un atribnuto que sea un array de objetos Multimedia y
+un entero para contar cuantos objetos hay alamcenados. Ademas tiene un constructor y los siguientes metodos:
+}
+
+1.) El constructor recibe un entero por parametro indicando el numero maximo de objetos que va a almacenar.
+2)int size(): devueñve el numero de ojetos que hay en la lista.
+3)boolean add(Multimedia m): añade el objeto final en la lista y deuvleve true en caso de que la lista este llena, duelve false.
+4) Multimedia get(int position): devuelve el objeto situado en posicion especificada.
+if(posicion >= contador){
+Throw new IndexOu...()}
+return array[posicion]
+5)Ztring toString(); devuelve la infomacion  de los objetos que estan en la lista.
+
+
+4) Escribe una aplicacion donde:
+.se cree un objeto de tipo ListaMultinedia de tanaño 10
+.Se creen 3 peliculas y se añadan a la lista
+. se muestre la lista por pantalla
